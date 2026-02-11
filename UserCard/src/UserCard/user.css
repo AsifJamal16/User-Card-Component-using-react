@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body{
+  background-color: #555;
+}
+.userComnent{
+  height: 490px;
+  width: 330px;
+  background-color: #333;
+  border: 1px solid gray;
+  border-radius: 7px;
+  margin: 50px auto;
+}
+.userheading h1{
+  font-size: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+label{
+  margin-left: 25px;
+  font-size: 19px;
+}
+input{
+  height: 40px;
+  width: 280px;
+  margin-left: 25px;
+  border-radius: 4px;
+  font-size: 17px;
+  color: #111;
+  padding-left: 4px;
+}
+input:focus{
+  outline: none;
+}
+
+textarea{
+  height: 100px;
+  width: 280px;
+  margin-left: 25px;
+  margin-right: 25px;
+  min-width: 280px;
+  max-width: 280px;
+  min-height: 100px;
+  max-height: 100px;
+  color: #111;
+  font-size: 16px;
+  padding-left: 7px;
+}
+textarea:focus{
+  outline: none;
+}
+button{
+  height: 50px;
+  width: 280px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 25px;
+  color: #111;
+  background-color: green;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.userprofilecar{
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+body{
+  background-color: #555;
+}
+.container{
+  height: 300px;
+  width: 400px;
+  background-color: #333;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+img{
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  margin-left: 155px;
+  margin-top: 30px;
+}
+h2,h1{
+  text-align: center;
+}
+.userdivmessage{
+  width: 98%;
+  margin: 1px auto;
+  padding: 5px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+h4{
+  margin-left: 8px;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-size: 17px;
+}
